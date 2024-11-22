@@ -1,24 +1,48 @@
 <!-- A partial to be overwritten by the user.
      Its content will appear before the closing </head>-tag -->
-
-
 <!-- Custom CSS via inline styles
      You may use this template to add custom CSS to your site like so: -->
-<!--
+
 <style>
 :root {
-    /* see variables.scss for more variables*/
+     /* === Cover / Landing area === */
+     --cover-text-color: #ffbf00; 
+     /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+     --highlight: #24231f;
+     --highlight-contrast: var(--cover-text-color);
+    /*inverse colors used for :hover */
+    --highlight-inverse: var(--cover-text-color);
+    --highlight-inverse-contrast: #24231f;
+     /* visual guard around title and description, when the feature is enabled */
+     --cover-title-and-description-guard-bg-color: rgba(0, 0, 0, 0.6);
+     --cover-title-text-shadow: #24231f 0px 0px 7px;
+     
+    /* === sticky top/left navigation menus === */
+    --sticky-menu-text-color: #fd7e00;
 
-    /*
-    --section-light-text-color: #3a4145!important;
-    --section-light-bg-color: #ffdb8c!important;
-    --section-dark-bg-color: #035e00!important;
-    */
+     /* === Alternating content (post) sections  === */
+     /* Light section - text color */
+     --section-light-text-color: #24231f;
+     /* Light section - background color */
+     --section-light-bg-color: #ffbf00;
 
-     /* define list element for unnumbered lists, leave empty for default list element */
-     /* fa-asterisk is the default icon if this variable definition is missing completely */
-     --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
-     --ul-li-icon: ;                /* this sets the default html list icon */
+     /* Dark section - text color */
+     --section-dark-text-color: var(--section-light-bg-color);
+     /* Dark section - background color */
+     --section-dark-bg-color: #24231f;
+
+     /* Light&Dark section >quote. Suppressive color, compared to 'Light section - text color'*/
+     --section-uni-quote: grey;
+     /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+     --section-uni-code-bg-color: #e0ded7;
+
+     /* === Single pages=== */
+     --single-page-text-color: var(--section-light-text-color);
+     --single-page-bg-color: var(--section-light-bg-color);
+
+     /* === Footer === */
+     --footer-color-background: #fd7e00;
+     --footer-color: 24231f;
 }
 </style>
 -->
