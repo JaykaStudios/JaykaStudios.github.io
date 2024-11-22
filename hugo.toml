@@ -17,6 +17,16 @@ title = "Jayka Studios"
 # enable emoji processing in Markdown (valid only for pure markdown content)
 enableEmoji = true
 
+[markup.goldmark.renderHooks.image]
+   enableDefault = true
+
+[[module.mounts]]
+   source = 'assets'
+   target = 'assets'
+[[module.mounts]]
+   source = 'static'
+   target = 'assets'
+   
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
