@@ -17,4 +17,6 @@ A 2D simulation game where you
 3. Expand across the nation
 4. Take over the economy in a race against time!
 {{< /image_text >}}
+Platforms: {{<icon name="android" brand="true">}} {{<icon name="apple" brand="true">}} {{<icon name="windows" brand="true">}}
+  
 [Try the web version now.](https://jaykastudios.com/TheCounterfeitBank_web/)
