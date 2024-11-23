@@ -1,0 +1,42 @@
+  /* Base styling for the button */
+  .shimmer-button {
+    background-color: #24231f; /* Black background */
+    color: #ffbf00; /* Yellow text */
+    border: none; /* No border */
+    padding: 16px 30px; /* Padding */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center align text */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    position: relative; /* Position for shimmer effect */
+    overflow: hidden; /* Hide overflow for shimmer */
+}
+
+/* Shimmer effect container */
+.shimmer-button::before {
+    content: ''; /* Empty content for shimmer */
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start shimmer off-screen */
+    width: 200%; /* Wide shimmer for smooth transition */
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 0, 0) 0%, rgba(255, 255, 0, 0.3) 50%, rgba(255, 255, 0, 0) 100%);
+    animation: shimmer 2s infinite; /* Infinite shimmer animation */
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* Optional hover effect */
+.shimmer-button:hover {
+    background-color: #6c664c; /* Slightly lighter black on hover */
+}

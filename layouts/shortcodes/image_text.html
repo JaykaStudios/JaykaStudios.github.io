@@ -1,0 +1,16 @@
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;padding: 10 2 10 2">
+    <!-- Image Section -->
+    <div style="flex: 1;  min-width: 280px; max-width: 400px; margin-bottom: 20px;">
+      <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;"/>
+    </div>
+  
+    <!-- Text and Buttons Section -->
+    <div style="flex: 2; min-width: 280px; max-width: 400px;">
+      <h2 style="margin: 0 0 10px 0; font-size: 24px; ">{{ .Get "title" }}</h2>
+      <p style="margin: 0 0 20px 0; font-size: 16px; line-height: 1.6; ">
+        {{ .Inner }}
+      </p>
+    </div>
+
+</div>
+  
