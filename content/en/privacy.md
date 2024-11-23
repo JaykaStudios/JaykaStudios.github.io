@@ -67,5 +67,3 @@ For any questions or concerns about this Privacy Policy or our practices, contac
 ### Changes to the Privacy Policy
 
 We reserve the right to make changes to this Privacy Policy. Please check back from time to time to review these changes. If we change this Privacy Policy in a material way, we will provide appropriate notice to you and, as appropriate, provide additional choices regarding such change. As permitted by applicable law, your continued use of the Services means that you accept these changes.
-
-By using our games and services, you agree to the terms of this Privacy Policy.
