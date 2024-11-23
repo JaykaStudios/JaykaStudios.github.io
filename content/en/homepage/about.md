@@ -1,5 +1,5 @@
 ---
-title: "About Jayka Studios"
+title: "About"
 header_menu_title: "About"
 navigation_menu_title: "About"
 weight: 2
