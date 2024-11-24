@@ -18,7 +18,7 @@ weight: 1
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
-Get exclusive early access discounts and goodies at launch when you register for the beta of 'The Counterfeit Bank'.
+Get exclusive early access discounts upto 95% when you register for the beta of 'The Counterfeit Bank'.
 
 [{{< shiny_button >}}
 Register for the beta
