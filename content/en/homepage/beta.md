@@ -1,5 +1,5 @@
 ---
-title: 'Register for the beta'
+title: 'Register for Early Access'
 
 # The "header_menu_title" value will be used as text for header buttons.
 # The "title" value will be used if value for "header_menu_title" is not provided.
@@ -18,8 +18,8 @@ weight: 1
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
-Get exclusive early access discounts upto 95% when you register for the beta of 'The Counterfeit Bank'.
+Get exclusive discounts upto 95% when you register for the early access of 'The Counterfeit Bank'.
 
 [{{< shiny_button >}}
-Register for the beta
+Register and Claim Your Discount Now!
 {{< /shiny_button >}}](https://forms.gle/hcsbucykEuSLuQws6)
