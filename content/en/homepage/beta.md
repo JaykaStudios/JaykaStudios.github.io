@@ -18,8 +18,8 @@ weight: 1
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
-Get exclusive discounts upto 95% when you register for the early access of 'The Counterfeit Bank'.
+Be among the first to play 'The Counterfeit Bank' and shape the game through your feedback!
 
 [{{< shiny_button >}}
-Register and Claim Your Discount Now!
+Register and Get Access!
 {{< /shiny_button >}}](https://forms.gle/hcsbucykEuSLuQws6)
