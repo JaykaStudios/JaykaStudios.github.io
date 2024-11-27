@@ -23,3 +23,8 @@ Be among the first to play 'The Counterfeit Bank' and shape the game through you
 [{{< shiny_button >}}
 Register and Get Access!
 {{< /shiny_button >}}](https://forms.gle/hcsbucykEuSLuQws6)
+
+{{< youtube_embed 
+video_link="https://www.youtube.com/embed/gJwIxIPjm0w"
+>}}
+{{< /youtube_embed >}}
