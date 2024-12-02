@@ -54,7 +54,7 @@ We'll keep your information for as long as necessary to provide you with the Ser
 
 ### User Rights
 
-You have the right to request deletion of your data. To do so, please contact us at jayka@jaykastudios.com.
+You have the right to request deletion of your data. To do so, please contact us at support@jaykastudios.com.
 
 ### Data Security
 
@@ -62,7 +62,7 @@ We follow generally accepted industry standards and maintain appropriate safegua
 
 ### Contact Information
 
-For any questions or concerns about this Privacy Policy or our practices, contact us at jayka@jaykastudios.com.
+For any questions or concerns about this Privacy Policy or our practices, contact us at support@jaykastudios.com.
 
 ### Changes to the Privacy Policy
 

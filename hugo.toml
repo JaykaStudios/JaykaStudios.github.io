@@ -96,8 +96,8 @@ enableEmoji = true
 
     [[params.contacts]]
         label = "email"
-        value = "jayka@jaykastudios.com"
-        url = "jayka@jaykastudios.com"
+        value = "business@jaykastudios.com"
+        url = "business@jaykastudios.com"
         icon = "fa fa-envelope"
 
     # Add additional contacts here!
