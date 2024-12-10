@@ -6,5 +6,5 @@ weight: 2
 header_menu: true
 ---
 
-Jayka Studios builds games to bring people together. It draws inspiration from 
-everyday life, current affairs, and Indian culture. The studio is based in India.
+Jayka Studios: Crafting games to connect people - games that are unique 
+and violence-free with a touch of the vibrant Indian culture.The studio is based in India.
