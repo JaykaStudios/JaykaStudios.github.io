@@ -102,7 +102,7 @@ enableEmoji = true
 
     [[params.contacts]]
         label = "Bluesky"
-        value = "@jaykastudios.bsky.social"
+        value = "jaykastudios.bsky.social"
         url = "https://bsky.app/profile/jaykastudios.bsky.social"
         icon = "fa-brands fa-bluesky"
     
