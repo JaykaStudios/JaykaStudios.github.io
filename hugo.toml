@@ -100,12 +100,25 @@ enableEmoji = true
         url = "business@jaykastudios.com"
         icon = "fa fa-envelope"
 
+    [[params.contacts]]
+        label = "Bluesky"
+        value = "@jaykastudios.bsky.social"
+        url = "https://bsky.app/profile/jaykastudios.bsky.social"
+        icon = "fa-brands fa-square-bluesky"
+    
+    [[params.contacts]]
+        label = "Youtube"
+        value = "youtube.com/jaykastudios"
+        url = "https://www.youtube.com/@jaykastudios"
+        icon = "fa-brands fa-square-youtube"
+
     # Add additional contacts here!
     # [[params.contacts]]
     #     label = ""
     #     value = ""
     #     url = ""
     #     icon = ""
+
 
 # Define additional languages
 [languages]
