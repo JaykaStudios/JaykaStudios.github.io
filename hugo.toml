@@ -104,13 +104,13 @@ enableEmoji = true
         label = "Bluesky"
         value = "@jaykastudios.bsky.social"
         url = "https://bsky.app/profile/jaykastudios.bsky.social"
-        icon = "fa-brands fa-square-bluesky"
+        icon = "fa-brands fa-bluesky"
     
     [[params.contacts]]
         label = "Youtube"
         value = "youtube.com/jaykastudios"
         url = "https://www.youtube.com/@jaykastudios"
-        icon = "fa-brands fa-square-youtube"
+        icon = "fa-brands fa-youtube"
 
     # Add additional contacts here!
     # [[params.contacts]]
