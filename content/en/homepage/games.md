@@ -11,12 +11,11 @@ header_menu: true
     alt="Cover Image"
     title="The Counterfeit Bank"
  >}}
-A 2D simulation game where you 
-1. Print counterfeit cash via front companies
-2. Evade the enforcers
-3. Expand across the nation
-4. Take over the economy in a race against time!
+A Plague Inc inspired simulation game about spreading counterfeit money.
+Step into The Counterfeit Bank: Print counterfeit cash, evade the enforcers, expand nationwide, and takeover the economy—in a race against time.
 {{< /image_text >}}
-Platforms: {{<icon name="android" brand="true">}} {{<icon name="apple" brand="true">}} {{<icon name="windows" brand="true">}}
+Early Access : [![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
+Coming Soon: {{<icon name="apple" brand="true">}} {{<icon name="windows" brand="true">}}
   
-[Try the web version now.](https://jaykastudios.com/TheCounterfeitBank_web/)
+[Demo: Windows](https://jaykastudios.com/TheCounterfeitBank_web/)
+[Demo: Web/HTML5](https://jaykastudios.com/downloads/TheCounterfeitBank.exe)
