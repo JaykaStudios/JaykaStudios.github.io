@@ -1,5 +1,5 @@
 ---
-title: 'Register for Early Access'
+title: 'Early Access'
 
 # The "header_menu_title" value will be used as text for header buttons.
 # The "title" value will be used if value for "header_menu_title" is not provided.
@@ -20,9 +20,7 @@ header_menu: true
 ---
 Be among the first to play 'The Counterfeit Bank' and shape the game through your feedback!
 
-[{{< shiny_button >}}
-Register and Get Access!
-{{< /shiny_button >}}](https://forms.gle/hcsbucykEuSLuQws6)
+[![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
 
 {{< youtube_embed 
 video_link="https://www.youtube.com/embed/gJwIxIPjm0w"
