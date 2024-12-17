@@ -1,5 +1,5 @@
 ---
-title: 'Early Access'
+title: 'Upcoming'
 
 # The "header_menu_title" value will be used as text for header buttons.
 # The "title" value will be used if value for "header_menu_title" is not provided.
@@ -18,9 +18,12 @@ weight: 1
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
+The Counterfeit Bank is coming soon on iOS and PC.
 Be among the first to play 'The Counterfeit Bank' and shape the game through your feedback!
 
-[![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
+[{{< shiny_button >}}
+Register and Get Access!
+{{< /shiny_button >}}](https://forms.gle/hcsbucykEuSLuQws6)
 
 {{< youtube_embed 
 video_link="https://www.youtube.com/embed/gJwIxIPjm0w"
