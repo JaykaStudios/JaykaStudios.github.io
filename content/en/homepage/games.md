@@ -11,7 +11,7 @@ header_menu: true
     alt="Cover Image"
     title="The Counterfeit Bank"
  >}}
-A Plague Inc inspired simulation game about spreading counterfeit money.
+Take over the country, one counterfeit note at a time.
 Step into The Counterfeit Bank: Print counterfeit cash, evade the enforcers, expand nationwide, and takeover the economy—in a race against time.
 {{< /image_text >}}
 
