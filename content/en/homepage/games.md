@@ -19,6 +19,6 @@ Step into The Counterfeit Bank: Print counterfeit cash, evade the enforcers, exp
 
 Coming Soon: {{<icon name="apple" brand="true">}} {{<icon name="windows" brand="true">}}
   
-[Demo: Windows](https://jaykastudios.com/downloads/TheCounterfeitBank.exe)
+[Demo: Windows](https://drive.google.com/file/d/1tYPc-7upvWwSWilTUqi_ILv3nzSMILmD/view?usp=sharing)
 
 [Demo: Web/HTML5](https://jaykastudios.com/TheCounterfeitBank_web/)
