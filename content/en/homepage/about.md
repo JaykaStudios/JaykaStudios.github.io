@@ -6,5 +6,4 @@ weight: 2
 header_menu: true
 ---
 
-Jayka Studios: Crafting games to connect people - games that are unique 
-and violence-free with a touch of the vibrant Indian culture.The studio is based in India.
+Jayka Studios: Crafting experimental unique games. The studio is based in India.
