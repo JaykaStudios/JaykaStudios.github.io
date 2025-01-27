@@ -12,16 +12,14 @@ header_menu: true
     title="The Counterfeit Bank"
  >}}
 Take over the country, one counterfeit note at a time.
-{{< /image_text >}}
-
 [![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
+{{< /image_text >}}
 
 {{< image_text
     image="/images/BloxDuel_icon_android.png"
     alt="Cover Image"
     title="Blox Duel"
  >}}
-A 2 player turn based mirrored block puzzle game,
-{{< /image_text >}}
-
+A 2 player turn based mirrored block puzzle game.
 [![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.bloxduel)
+{{< /image_text >}}
