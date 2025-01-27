@@ -1,5 +1,7 @@
 google.com, pub-4387951767615840, DIRECT, f08c47fec0942fa0
+
 facebook.com, 984760486853464, DIRECT, c3e20eee3f780d68
+
 videoheroes.tv, 212428, RESELLER, 064bc410192443d8
 pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
 pubmatic.com, 162588, RESELLER, 5d62403b186f2ace
@@ -158,3 +160,8 @@ rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
 pubmatic.com, 162882, RESELLER, 5d62403b186f2ace
 smartadserver.com, 4610, RESELLER, 060d053dcf45cbf3
 rubiconproject.com, 24170, RESELLER, 0bfd66d529a55807
+inmobi.com, 0c8e054083954c68a45044396a1c3df8, RESELLER, 83e75a7ae333ca9d
+e-planning.net, 79686787743ddfc5, RESELLER, c1ba615865ed87b2
+openx.com, 541017750, RESELLER, 6a698e2ec38604c6
+taurusx.com, 80029, RESELLER
+rhebus.works, 5000863388, RESELLER
