@@ -6,20 +6,26 @@ weight: 1
 header_menu: true
 ---
    
-{{< image_text
-    image="/images/TCB_game_icon_512.png"
-    alt="Cover Image"
-    title="The Counterfeit Bank"
+{{< game_item
+    title = "The Counterfeit Bank"
+    image = "/images/TCB_game_icon_512.png"
+    alt = "The Counterfeit Bank Game Icon"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
  >}}
 Take over the country, one counterfeit note at a time.
-[![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
-{{< /image_text >}}
+{{< /game_item >}}
 
-{{< image_text
-    image="/images/BloxDuel_icon_android.png"
-    alt="Cover Image"
-    title="Blox Duel"
+{{< game_item
+    title = "Blox Duel"
+    image = "/images/BloxDuel_icon_android.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.bloxduel"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
  >}}
-A 2 player turn based mirrored block puzzle game.
-[![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.bloxduel)
-{{< /image_text >}}
+
+ 2 player turn based mirrored block puzzle game.
+{{< /game_item >}}

@@ -1,0 +1,26 @@
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; padding: 2 2 2 2;">
+  <!-- Image Section -->
+  <div style="flex: 1; min-width: 280px; max-width: 400px; margin-bottom: 20px;">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;" />
+  </div>
+
+  <!-- Text and Buttons Section -->
+  <div style="flex: 2; min-width: 280px; max-width: 400px;">
+    <h2 style="margin: 0 0 10px 0; font-size: 24px;">{{ .Get "title" }}</h2>
+    <p style="margin: 0 0 20px 0; font-size: 16px; line-height: 1.6;">
+      {{ .Inner }}
+    </p>
+    
+    <!-- Download Badges -->
+    <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+      <a href="{{ .Get "androidLink" }}" target="_blank" rel="noopener">
+        <img src="{{ .Get "androidBadge" }}" alt="Download on Android" style="height: 50px;" />
+      </a>
+      {{ with .Get "iosLink" }}
+        <a href="{{ . }}" target="_blank" rel="noopener">
+          <img src="{{ $.Get "iosBadge" }}" alt="Download on iOS" style="height: 50px;" />
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
