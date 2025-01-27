@@ -7,18 +7,21 @@ header_menu: true
 ---
    
 {{< image_text
-    image="/images/coverimage_512.png"
+    image="/images/TCB_game_icon_512.png"
     alt="Cover Image"
     title="The Counterfeit Bank"
  >}}
 Take over the country, one counterfeit note at a time.
-Step into The Counterfeit Bank: Print counterfeit cash, evade the enforcers, expand nationwide, and takeover the economy—in a race against time.
 {{< /image_text >}}
 
 [![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank)
 
-Coming Soon: {{<icon name="apple" brand="true">}} {{<icon name="windows" brand="true">}}
-  
-[Demo: Windows](https://drive.google.com/file/d/1tYPc-7upvWwSWilTUqi_ILv3nzSMILmD/view?usp=sharing)
+{{< image_text
+    image="/images/BloxDuel_icon_android.png"
+    alt="Cover Image"
+    title="Blox Duel"
+ >}}
+A 2 player turn based mirrored block puzzle game,
+{{< /image_text >}}
 
-[Demo: Web/HTML5](https://jaykastudios.com/TheCounterfeitBank_web/)
+[![Google Play](/images/google-play.png)](https://play.google.com/store/apps/details?id=com.jaykastudios.bloxduel)
