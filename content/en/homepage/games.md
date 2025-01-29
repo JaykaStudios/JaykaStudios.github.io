@@ -26,6 +26,60 @@ Take over the country, one counterfeit note at a time.
     iosLink = ""
     iosBadge = "/images/app-store.png"
  >}}
+ A 2 player turn based competetive mirrored block puzzle game.
+{{< /game_item >}}
 
- 2 player turn based mirrored block puzzle game.
+{{< game_item
+    title = "Crossy Speed Blox Slide Puzzle"
+    image = "/images/Crossyspeedblox_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.crossyspeedblox"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
+ >}}
+Slide blocks in a cross shaped grid to match the colors! Test your speed & Logic.
+{{< /game_item >}}
+
+{{< game_item
+    title = "Dreamy Maze : Build a Maze"
+    image = "/images/dreamymaze_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.dreamymaze"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
+ >}}
+Build barriers, outsmart fears, and chase dreams in this thrilling maze builder.
+{{< /game_item >}}
+
+{{< game_item
+    title = "Kingdom Mosaic Tile Placement"
+    image = "/images/kingdom_mosiac_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.kingdommosaic"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
+ >}}
+Strategically place tiles to match colors on the grid without leaving any gap
+{{< /game_item >}}
+
+{{< game_item
+    title = "Speed Blox Mini Sliding Puzzle"
+    image = "/images/speedbloxmini_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.speedbloxmini"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
+ >}}
+Slide rows and columns to align blocks by color. Solve fast before time runs out.
+{{< /game_item >}}
+
+{{< game_item
+    title = "Impact Offense -Tap Spawn Kill"
+    image = "/images/impactoffenst_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.impactoffense"
+    androidBadge = "/images/google-play.png"
+    iosLink = ""
+    iosBadge = "/images/app-store.png"
+ >}}
+Tap, bombard, and upgrade! Destroy the alien ship before it powers up fully!
 {{< /game_item >}}
