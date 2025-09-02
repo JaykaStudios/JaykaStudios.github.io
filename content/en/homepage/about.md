@@ -6,4 +6,5 @@ weight: 2
 header_menu: true
 ---
 
-Jayka Studios: Crafting experimental unique games. The studio is based in India.
+Jayka Studios: Crafting experimental unique games.
+The studio is based in India.

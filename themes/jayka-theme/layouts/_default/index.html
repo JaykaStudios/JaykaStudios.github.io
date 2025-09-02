@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<!-- Featured Games Slider (replaces hero) -->
+{{ if .Params.carousel_slides }}
+<section id="featured" class="featured-section">
+  <div class="container">
+    <h2>Featured Games</h2>
+    <div class="featured-slider">
+      <button class="slider-prev" aria-label="Previous">‹</button>
+      <div class="slider-track">
+        {{ range $index, $slide := .Params.carousel_slides }}
+        <div class="featured-card" data-index="{{ $index }}">
+          <div class="featured-image">
+            <img src="{{ $slide.image }}" alt="{{ $slide.headline }}" loading="eager" decoding="async">
+          </div>
+          <div class="featured-body">
+            <h3 class="featured-title">{{ $slide.headline }}</h3>
+            {{ if $slide.button_link }}
+            <a class="featured-button" href="{{ $slide.button_link }}" {{ if in $slide.button_link "http" }}target="_blank"{{ end }}>{{ $slide.button_text | default "Play Now" }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+  <button class="slider-next" aria-label="Next">›</button>
+  <div class="slider-dots"></div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ $homepage := .Site.GetPage "/homepage" }}
+{{ if $homepage }}
+  {{ range $homepage.Resources.ByType "page" }}
+  {{ if and (ne .Title "Press") (ne .Title "Team") }}
+  <section id="{{ anchorize .Title }}" class="section">
+    <div class="container">
+      <h2>{{ .Title }}</h2>
+      <div class="content">
+        {{ if eq .Title "Our Games" }}
+        <div class="game-grid">
+          {{ .Content | safeHTML }}
+        </div>
+        {{ else }}
+        {{ .Content | safeHTML }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}

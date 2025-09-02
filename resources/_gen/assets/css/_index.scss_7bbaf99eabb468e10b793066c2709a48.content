@@ -1,43 +1,46 @@
 :root {
   /* === Cover / Landing area === */
-  --cover-text-color: #37501a;
+  --cover-text-color: #ffffff;
   /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
-  --highlight: #86c440;
+  --highlight: #00d4ff;
   --highlight-contrast: var(--cover-text-color);
   /*inverse colors used for :hover */
   --highlight-inverse: var(--cover-text-color);
-  --highlight-inverse-contrast: white;
+  --highlight-inverse-contrast: #00d4ff;
   /* visual guard around title and description, when the feature is enabled */
-  --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
-  --cover-title-text-shadow: white 0px 0px 7px;
+  --cover-title-and-description-guard-bg-color: rgba(0, 0, 0, 0.7);
+  --cover-title-text-shadow: black 0px 0px 10px;
   /* === sticky top/left navigation menus === */
-  --sticky-menu-text-color: #9fd067;
+  --sticky-menu-text-color: #00d4ff;
   /* === Alternating content (post) sections  === */
   /* Light section - text color */
-  --section-light-text-color: #3a4145;
+  --section-light-text-color: #e0e0e0;
   /* Light section - background color */
-  --section-light-bg-color: #f2efe8;
+  --section-light-bg-color: #1a1a1a;
   /* Dark section - text color */
   --section-dark-text-color: var(--section-light-bg-color);
   /* Dark section - background color */
-  --section-dark-bg-color: #b80135;
+  --section-dark-bg-color: #0d0d0d;
   /* Light&Dark section >quote. Suppressive color, compared to 'Light section - text color'*/
-  --section-uni-quote: grey;
+  --section-uni-quote: #888;
   /* Light&Dark section `code` a bit darker than 'Light section - background color' */
-  --section-uni-code-bg-color: #e0ded7;
+  --section-uni-code-bg-color: #2a2a2a;
   /* === Single pages=== */
   --single-page-text-color: var(--section-light-text-color);
   --single-page-bg-color: var(--section-light-bg-color);
   /* === Footer === */
-  --footer-color-background: #22343a;
-  --footer-color: #bbc7cc;
+  --footer-color-background: #0a0a0a;
+  --footer-color: #ccc;
   /* === Lists === */
   /* define list element for unnumbered lists, leave empty for default list element */
-  --ul-li-icon: fa-asterisk; }
+  --ul-li-icon: fa-gamepad; }
 
 body {
   --color-text: var(--section-light-text-color);
-  --color-background: var(--section-light-bg-color); }
+  --color-background: #000000;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Open Sans', sans-serif; }
 
 /* ===== Cover =======*/
 #blog-logo {
@@ -55,11 +58,13 @@ body {
   position: relative;
   display: table;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin-bottom: 0rem;
   text-align: center;
   color: var(--cover-text-color);
   background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
   /* Big cover video at the landing area */
   /** The arrow button to scroll to content */ }
   #site-head video, #site-head.withCenteredImage video {
@@ -135,7 +140,7 @@ body {
     font-size: 140px;
     margin: -10px auto;
     text-align: center;
-    position: absolute;
+    display: inline-block;
     width: 100%;
     left: 0;
     bottom: -120px;
@@ -150,7 +155,7 @@ body {
 
 /* Left sticky menu */
 .fixed-nav {
-  background-color: var(--section-light-bg-color);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 0 25px 20px 0;
   padding: 1em 1.5em;
   display: none;
@@ -162,7 +167,8 @@ body {
   text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 130%;
-  font-weight: bold; }
+  font-weight: bold;
+  backdrop-filter: blur(10px); }
 
 a.fn-item {
   display: block;
@@ -186,6 +192,7 @@ a.fn-item {
   background-color: var(--color-background);
   color: var(--color-text);
   position: relative;
+  animation: fadeInUp 1s ease-out;
   /* The triangular parts between posts */ }
   .post-holder.dark {
     --color-text: var(--section-dark-text-color);
@@ -279,6 +286,14 @@ a.fn-item {
     padding-left: 0; }
   .site-footer .links li {
     margin-left: unset; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px); }
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
 
 html {
   height: 100%;

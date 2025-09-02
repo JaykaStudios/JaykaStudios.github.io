@@ -5,15 +5,16 @@ navigation_menu_title: "Our Games"
 weight: 1
 header_menu: true
 ---
-   
+
 {{< game_item
     title = "The Counterfeit Bank"
     image = "/images/TCB_game_icon_512.png"
     alt = "The Counterfeit Bank Game Icon"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
+    releaseDate = "2023"
+    rating = "4"
+    features = "Strategic gameplay, Multiple currencies, Upgrade system, Challenging levels"
  >}}
 Take over the country, one counterfeit note at a time.
 {{< /game_item >}}
@@ -23,8 +24,6 @@ Take over the country, one counterfeit note at a time.
     image = "/images/BloxDuel_icon_android.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.bloxduel"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
  A 2 player turn based competetive mirrored block puzzle game.
 {{< /game_item >}}
@@ -34,8 +33,6 @@ Take over the country, one counterfeit note at a time.
     image = "/images/Crossyspeedblox_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.crossyspeedblox"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
 Slide blocks in a cross shaped grid to match the colors! Test your speed & Logic.
 {{< /game_item >}}
@@ -45,8 +42,6 @@ Slide blocks in a cross shaped grid to match the colors! Test your speed & Logic
     image = "/images/dreamymaze_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.dreamymaze"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
 Build barriers, outsmart fears, and chase dreams in this thrilling maze builder.
 {{< /game_item >}}
@@ -56,8 +51,6 @@ Build barriers, outsmart fears, and chase dreams in this thrilling maze builder.
     image = "/images/kingdom_mosiac_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.kingdommosaic"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
 Strategically place tiles to match colors on the grid without leaving any gap
 {{< /game_item >}}
@@ -67,8 +60,6 @@ Strategically place tiles to match colors on the grid without leaving any gap
     image = "/images/speedbloxmini_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.speedbloxmini"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
 Slide rows and columns to align blocks by color. Solve fast before time runs out.
 {{< /game_item >}}
@@ -78,8 +69,6 @@ Slide rows and columns to align blocks by color. Solve fast before time runs out
     image = "/images/impactoffenst_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.impactoffense"
     androidBadge = "/images/google-play.png"
-    iosLink = ""
-    iosBadge = "/images/app-store.png"
  >}}
 Tap, bombard, and upgrade! Destroy the alien ship before it powers up fully!
 {{< /game_item >}}

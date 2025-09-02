@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="section section-light">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="posts-grid">
+      {{ range .Pages }}
+      <article class="post-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .RelPermalink }}" class="btn btn-secondary">Read More</a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
