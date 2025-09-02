@@ -367,6 +367,7 @@ p {
   /* make room for the fixed header so top of slider isn't hidden */
   padding: calc(var(--header-height) + 0.5rem) 0 2rem; /* increased bottom gap to separate from following cards */
   scroll-margin-top: calc(var(--header-height) + 0.5rem);
+  overflow-x: hidden; /* prevent horizontal overflow */
 }
 
 .featured-slider {
@@ -377,15 +378,23 @@ p {
   justify-content: center; /* center the slider controls and track */
   padding-top: 0.6rem; /* small gap under the section title */
   padding-bottom: 0.6rem; /* increased space for box-shadow */
+  overflow-x: hidden; /* prevent horizontal scroll on page */
 }
 
 .slider-track {
   display: flex;
   gap: 1rem;
   scroll-behavior: smooth;
-  width: 100%;
+  min-width: 100%;
   justify-content: center; /* ensure cards are centered in the track */
   padding: 1rem 0; /* add vertical breathing room for cards and shadows */
+  overflow-x: auto; /* allow horizontal scrolling within the slider */
+  scrollbar-width: none; /* hide scrollbar for better look */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.slider-track::-webkit-scrollbar {
+  display: none; /* hide scrollbar for webkit browsers */
 }
 
 .featured-card {
@@ -523,6 +532,23 @@ p {
 
 @media (min-width: 900px) {
   .featured-card { width: 360px; }
+}
+
+/* Mobile responsiveness for featured slider */
+@media (max-width: 768px) {
+  .featured-slider {
+    gap: 1rem; /* keep original gap */
+  }
+  
+  .slider-track {
+    gap: 1rem; /* keep original gap */
+    justify-content: flex-start; /* allow scrolling from left on mobile */
+    padding: 1rem 0; /* keep original padding */
+  }
+  
+  .featured-card {
+    width: min(420px, 80vw); /* keep original width */
+  }
 }
 
 

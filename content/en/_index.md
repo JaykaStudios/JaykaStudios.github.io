@@ -14,13 +14,18 @@ header_subheadline: ""
 
 # Carousel slides
 carousel_slides:
-  - image: "images/coverimage.png"
+  - image: "images/asuraattack_icon.png"
     headline: "Asura Attack"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack"
+  - image: "images/teagarden_icon.png"
+    headline: "Tea Garden"
+    subheadline: "Grow your garden and brew the perfect cup"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.teagarden"
   - image: "images/TCB_game_icon_512.png"
     headline: "The Counterfeit Bank"
-    subheadline: "Take over the country, one counterfeit note at a time."
+    subheadline: "Take over the country, one counterfeit note at a time"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank"
 

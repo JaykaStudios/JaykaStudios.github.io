@@ -63,7 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function update() {
       const slide = slides[current];
       const offsetLeft = slide.offsetLeft;
-      track.scrollTo({ left: offsetLeft - 8, behavior: 'smooth' });
+      const gapAdjustment = window.innerHeight > window.innerWidth ? 0 : 8; // no gap in portrait
+      track.scrollTo({ left: offsetLeft - gapAdjustment, behavior: 'smooth' });
       // update dots
       if (dotsContainer) {
         dotsContainer.querySelectorAll('button').forEach((b, i) => {
