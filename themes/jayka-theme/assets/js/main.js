@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const dotsContainer = featuredSlider.querySelector('.slider-dots');
     let current = 0;
     const total = slides.length;
+    const positions = slides.map(slide => slide.offsetLeft);
 
     function update() {
-      const slide = slides[current];
-      const offsetLeft = slide.offsetLeft;
+      const offsetLeft = positions[current];
       const gapAdjustment = window.innerHeight > window.innerWidth ? 0 : 8; // no gap in portrait
       track.scrollTo({ left: offsetLeft - gapAdjustment, behavior: 'smooth' });
       // update dots

@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}</title>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}"></noscript>
   {{ partial "head.html" . }}
 </head>
 <body>

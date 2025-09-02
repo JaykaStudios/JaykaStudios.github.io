@@ -7,7 +7,7 @@
   --accent-color: #1A1300;
   
   /* Background colors */
-  --light-bg: #FFFBF0;
+  --light-bg: #fef3d1;
   --section-light-bg: #fff8f0;
   --section-dark-bg: #24231f;
   
@@ -296,7 +296,7 @@ p {
   top: 0;
   width: 100%;
   height: var(--header-height);
-  background: rgba(255, 249, 230, 0.95);
+  background: rgba(254, 243, 209, 0.95);
   backdrop-filter: blur(15px);
   z-index: 1000;
   box-shadow: 0 2px 20px rgba(26, 19, 0, 0.1);
@@ -314,7 +314,7 @@ p {
 }
 
 .nav-brand img {
-  height: 50px;
+  height: 80px;
   transition: transform var(--transition-fast);
 }
 
@@ -322,10 +322,17 @@ p {
   transform: scale(1.05);
 }
 
+.nav-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin-left: auto;
 }
 
 .nav-menu a {
@@ -353,6 +360,44 @@ p {
 
 .nav-menu a:hover::after {
   width: 100%;
+}
+
+/* Hamburger Menu */
+.nav-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 3px;
+  background: var(--text-primary);
+  transition: all var(--transition-fast);
+  transform-origin: center;
+}
+
+.nav-toggle:checked ~ .hamburger span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle:checked ~ .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle:checked ~ .hamburger span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
 }
 
 /* Sections - Optimized */
@@ -1100,8 +1145,29 @@ p {
     max-height: 35vh;
   }
 
+  .hamburger {
+    display: flex;
+    margin-left: auto;
+  }
+
   .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    width: 250px;
+    background: rgba(254, 243, 209, 0.95);
+    backdrop-filter: blur(15px);
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     display: none;
+  }
+
+  .nav-toggle:checked ~ .nav-menu {
+    display: flex;
   }
 
   .game-grid {

@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy</title>
   
-  <link rel="stylesheet" href="/css/main.min.css">
+  <link rel="preload" href="/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/main.min.css"></noscript>
   <meta name="description" content="Crafting experimental unique games.">
 <meta name="keywords" content="">
 <link rel="icon" href="images/favicon.png">
@@ -15,9 +16,17 @@
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://unpkg.com">
 
-<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Funnel+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Funnel+Sans:wght@300;400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Funnel+Sans:wght@300;400;600&display=swap"></noscript>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preload" href="https://fonts.gstatic.com/s/cherrybombone/v2/OpNIno8DgGhzbi4Q0U8OBhlPpU4GMl.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/funnelsans/v10/y83DW4od1mwvfBh8vDwrPQ.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
 
 <script src="https://unpkg.com/container-query-polyfill@1/dist/container-query-polyfill.modern.js" defer></script>
 
@@ -27,10 +36,16 @@
   <nav class="navbar">
     <div class="nav-brand">
       <picture>
-        <source srcset="/images/logo_256.webp" type="image/webp">
-        <img src="/images/logo_256.png" alt="Logo">
+        <source srcset="/images/jaykastudios-logo-wide_1024.webp" type="image/webp">
+        <img src="/images/jaykastudios-logo-wide_1024.png" alt="Logo">
       </picture>
     </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
     <ul class="nav-menu">
       <li><a href="#hero">Home</a></li>
       <li><a href="#our-games">Games</a></li>

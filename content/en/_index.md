@@ -1,4 +1,5 @@
 ---
+title: "Jayka Studios"
 # Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
 header_image: "images/coverimage.png"
 #
