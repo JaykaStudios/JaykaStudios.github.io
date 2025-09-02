@@ -368,6 +368,7 @@ p {
   padding: calc(var(--header-height) + 0.5rem) 0 2rem; /* increased bottom gap to separate from following cards */
   scroll-margin-top: calc(var(--header-height) + 0.5rem);
   overflow-x: hidden; /* prevent horizontal overflow */
+  overflow-y: hidden; /* prevent vertical scroll */
 }
 
 .featured-slider {
@@ -377,8 +378,9 @@ p {
   gap: 1rem;
   justify-content: center; /* center the slider controls and track */
   padding-top: 0.6rem; /* small gap under the section title */
-  padding-bottom: 0.6rem; /* increased space for box-shadow */
+  padding-bottom: 0; /* remove bottom padding to prevent overflow */
   overflow-x: hidden; /* prevent horizontal scroll on page */
+  overflow-y: hidden; /* prevent vertical scroll */
 }
 
 .slider-track {
@@ -387,7 +389,7 @@ p {
   scroll-behavior: smooth;
   min-width: 100%;
   justify-content: center; /* ensure cards are centered in the track */
-  padding: 1rem 0; /* add vertical breathing room for cards and shadows */
+  padding: 0.5rem 0; /* small vertical padding for box-shadow */
   overflow-x: auto; /* allow horizontal scrolling within the slider */
   scrollbar-width: none; /* hide scrollbar for better look */
   -ms-overflow-style: none; /* IE and Edge */

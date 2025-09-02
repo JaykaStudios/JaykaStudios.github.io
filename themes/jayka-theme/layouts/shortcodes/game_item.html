@@ -4,7 +4,10 @@
 {{ end }}
 <div class="game-item">
   <div class="game-image">
-    <img src="{{ .Get "image" }}" alt="{{ .Get "alt" | default "Game Icon" }}">
+    <picture>
+      <source srcset="{{ .Get "image" | replaceRE ".png" ".webp" }}" type="image/webp">
+      <img src="{{ .Get "image" }}" alt="{{ .Get "alt" | default "Game Icon" }}">
+    </picture>
     <div class="game-content">
       <h3>{{ .Get "title" }}</h3>
     </div>

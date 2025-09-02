@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=49377&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tags</title>
@@ -10,18 +10,26 @@
 <meta name="keywords" content="">
 <link rel="icon" href="images/favicon.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://unpkg.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Funnel+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<script src="https://unpkg.com/container-query-polyfill@1/dist/container-query-polyfill.modern.js"></script>
+<script src="https://unpkg.com/container-query-polyfill@1/dist/container-query-polyfill.modern.js" defer></script>
 
 </head>
 <body>
   <header class="site-header">
   <nav class="navbar">
     <div class="nav-brand">
-      <img src="/images/logo_256.png" alt="Logo">
+      <picture>
+        <source srcset="/images/logo_256.webp" type="image/webp">
+        <img src="/images/logo_256.png" alt="Logo">
+      </picture>
     </div>
     <ul class="nav-menu">
       <li><a href="#hero">Home</a></li>
