@@ -5,9 +5,10 @@ title: 'Privacy Policy'
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
 We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
-Privacy Policy for Jayka Studios
 
-Last Update: 22/11/2024
+# Privacy Policy for Jayka Studios
+
+*Last Update: 22/11/2024*
 
 Jayka Studios ("we", "us", "our") values your privacy. This Privacy Policy outlines how we collect, use, store, and protect your data when you interact with our games and services. By using our services, you agree to the terms of this Privacy Policy.
 
@@ -35,17 +36,30 @@ We may collect the following information:
 
 The collected information is used for the following purposes:
 
-**Business Purposes**: Provide the Services and support; fulfill orders and requests; improve the Services and our business; develop new products and services; enhance your experience on the Services; protect the security for our users, employees, facilities, and Services; and develop internal marketing and demographic studies
-**Commercial Purposes**: Market and advertise our and our business partners' products and services; send you promotional materials; and administer promotional activities or events
+**Business Purposes**:
+- Provide the Services and support
+- Fulfill orders and requests
+- Improve the Services and our business
+- Develop new products and services
+- Enhance your experience on the Services
+- Protect the security for our users, employees, facilities, and Services
+- Develop internal marketing and demographic studies
+
+**Commercial Purposes**:
+- Market and advertise our and our business partners' products and services
+- Send you promotional materials
+- Administer promotional activities or events
 
 ### Sharing of Data
 
-We may share your information with
--vendors that perform support and other services for us
--members of Jayka Studios 
--advertising service providers and partners
--other third parties (e.g., for collaborative offerings, legal and safety purposes, in connection with the sale or transfer of a business or asset, and other purposes with your permission)
--other users, such as when you participate in open communities or events, or information published on leaderboards
+We may share your information with:
+
+- Vendors that perform support and other services for us
+- Members of Jayka Studios
+- Advertising service providers and partners
+- Other third parties (e.g., for collaborative offerings, legal and safety purposes, in connection with the sale or transfer of a business or asset, and other purposes with your permission)
+- Other users, such as when you participate in open communities or events, or information published on leaderboards
+
 We do not sell or share personal information about persons that we know are under the age of 16 without their (or depending on age, their parent's) consent.
 
 ### Data Retention

@@ -261,6 +261,10 @@ h1 {
   line-height: 1.2;
 }
 
+.page-title {
+  text-align: center;
+}
+
 h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -403,6 +407,14 @@ p {
 /* Sections - Optimized */
 .section {
   padding: 3rem 0; /* reduced vertical padding */
+  animation: fadeInUp 1s ease-out;
+  position: relative;
+}
+
+/* Page sections - Add top padding to account for fixed header */
+.page-section {
+  padding-top: calc(var(--header-height) + 2rem);
+  padding-bottom: 3rem;
   animation: fadeInUp 1s ease-out;
   position: relative;
 }
