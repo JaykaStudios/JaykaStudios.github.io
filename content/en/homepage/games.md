@@ -7,6 +7,26 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Asura Attack 2"
+    image = "/images/asuraattack2.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack2"
+    androidBadge = "/images/google-play.png"
+    releaseDate = "2025"
+ >}}
+Defend against waves of Asuras in this strategic merge rpg game inspired by Hindu mythology. Merge weapons, manage resources, and deploy turrets to protect the sacred lands.
+{{< /game_item >}}
+
+{{< game_item
+    title = "Food Soldiers"
+    image = "/images/foodsoldiers.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.foodsoldiers"
+    androidBadge = "/images/google-play.png"
+    releaseDate = "2025"
+ >}}
+Defend your land from quirky food-themed adversaries! Merge gears, power up your turrets, and strategize against hotdog samurai and dumpling wrestlers in this frantic puzzle defense game.
+{{< /game_item >}}
+
+{{< game_item
     title = "The Counterfeit Bank"
     image = "/images/TCB_game_icon_512.png"
     alt = "The Counterfeit Bank Game Icon"
@@ -111,3 +131,6 @@ Tap, bombard, and upgrade! Destroy the alien ship before it powers up fully!
  >}}
 Combine elements and learn chemistry with adorable animals in this educational puzzle game.
 {{< /game_item >}}
+
+
+
