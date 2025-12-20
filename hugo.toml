@@ -114,6 +114,18 @@ enableEmoji = true
         url = "https://www.youtube.com/@jaykastudios"
         icon = "fa-brands fa-youtube"
 
+    [[params.contacts]]
+        label = "Instagram"
+        value = "instagram.com/jayka_studios"
+        url = "https://www.instagram.com/jayka_studios/"
+        icon = "fa-brands fa-instagram"
+
+    [[params.contacts]]
+        label = "Facebook"
+        value = "facebook.com/Jayka-Studios"
+        url = "https://www.facebook.com/people/Jayka-Studios/61580624625952/"
+        icon = "fa-brands fa-facebook"
+
     # Add additional contacts here!
     # [[params.contacts]]
     #     label = ""
