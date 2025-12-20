@@ -771,6 +771,22 @@ p {
   color: white;
 }
 
+.google-play-badge {
+  width: 180px;
+  height: auto;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.game-overlay .google-play-badge {
+  width: 140px;
+}
+
+.google-play-badge:hover {
+  transform: scale(1.05);
+}
+
 .download-text {
   font-size: 1.4rem;
   font-weight: 800;

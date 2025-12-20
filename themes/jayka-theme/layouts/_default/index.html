@@ -20,8 +20,10 @@
           <div class="featured-body">
             <h3 class="featured-title">{{ $slide.headline }}</h3>
             {{ if $slide.button_link }}
-            <a class="featured-button" href="{{ $slide.button_link }}" {{ if in $slide.button_link "http"
-              }}target="_blank" {{ end }}>{{ $slide.button_text | default "Play Now" }}</a>
+            <a href="{{ $slide.button_link }}" {{ if in $slide.button_link "http"
+              }}target="_blank" {{ end }}>
+              <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="google-play-badge">
+            </a>
             {{ end }}
           </div>
         </div>
