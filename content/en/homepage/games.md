@@ -7,6 +7,16 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Inflate Penguin"
+    image = "/images/inflatepenguin.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
+    androidBadge = "/images/google-play.png"
+    releaseDate = "2025"
+ >}}
+Help the penguin inflate and float through obstacles in this fun and addictive arcade game.
+{{< /game_item >}}
+
+{{< game_item
     title = "Asura Attack 2"
     image = "/images/asuraattack2.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack2"

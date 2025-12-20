@@ -15,6 +15,10 @@ header_subheadline: ""
 
 # Carousel slides
 carousel_slides:
+  - image: "/images/inflatepenguin.png"
+    headline: "Inflate Penguin"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
   - image: "/images/asuraattack2.png"
     headline: "Asura Attack 2"
     button_text: "Play Now"
