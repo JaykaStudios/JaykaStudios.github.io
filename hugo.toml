@@ -10,6 +10,8 @@ defaultContentLanguage = "en"
 # The name of this wonderful theme ;-).
 theme = "jayka-theme"
 
+googleAnalytics = "G-JJKQDYCMYS"
+
 # The browser tab name
 title = "Jayka Studios"
 
