@@ -7,13 +7,23 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Sneeze Volcano"
+    image = "/images/sneezevolcano.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
+    androidBadge = "/images/google-play.png"
+    releaseDate = "2025"
+ >}}
+Sneeze a Volcano to shoot down the UFOs with Lava. Don't hit the planes!
+{{< /game_item >}}
+
+{{< game_item
     title = "Inflate Penguin"
     image = "/images/inflatepenguin.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
     androidBadge = "/images/google-play.png"
     releaseDate = "2025"
  >}}
-Help the penguin inflate and float through obstacles in this fun and addictive arcade game.
+Inflate a Penguin to Power a battery with a wind turbine!
 {{< /game_item >}}
 
 {{< game_item

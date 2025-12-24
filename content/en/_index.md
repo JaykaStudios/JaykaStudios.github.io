@@ -10,23 +10,19 @@ header_use_video: false
 header_logo: "images/logo_256.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Asura Attack"
-header_subheadline: ""
+header_headline: "Sneeze Volcano"
+header_subheadline: "Sneeze a Volcano to shoot down UFOs!"
 
 # Carousel slides
 carousel_slides:
+  - image: "/images/sneezevolcano.png"
+    headline: "Sneeze Volcano"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
   - image: "/images/inflatepenguin.png"
     headline: "Inflate Penguin"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
-  - image: "/images/asuraattack2.png"
-    headline: "Asura Attack 2"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack2"
-  - image: "/images/foodsoldiers.png"
-    headline: "Food Soldiers"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.foodsoldiers"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
