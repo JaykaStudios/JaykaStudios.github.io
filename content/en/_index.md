@@ -10,15 +10,15 @@ header_use_video: false
 header_logo: "images/logo_256.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Sneeze Volcano"
-header_subheadline: "Sneeze a Volcano to shoot down UFOs!"
+header_headline: "Quack Revolution"
+header_subheadline: "Quack a Revolution. Lead your blue duck army to victory!"
 
 # Carousel slides
 carousel_slides:
-  - image: "/images/sneezevolcano.png"
-    headline: "Sneeze Volcano"
+  - image: "/images/quackrevolution.png"
+    headline: "Quack Revolution"
     button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
   - image: "/images/inflatepenguin.png"
     headline: "Inflate Penguin"
     button_text: "Play Now"

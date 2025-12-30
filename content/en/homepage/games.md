@@ -7,13 +7,12 @@ header_menu: true
 ---
 
 {{< game_item
-    title = "Sneeze Volcano"
-    image = "/images/sneezevolcano.png"
-    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
+    title = "Quack Revolution"
+    image = "/images/quackrevolution.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
  >}}
-Sneeze a Volcano to shoot down the UFOs with Lava. Don't hit the planes!
+Quack a Revolution. Lead your blue duck army to victory by gaining majority
 {{< /game_item >}}
 
 {{< game_item
@@ -21,9 +20,17 @@ Sneeze a Volcano to shoot down the UFOs with Lava. Don't hit the planes!
     image = "/images/inflatepenguin.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
  >}}
 Inflate a Penguin to Power a battery with a wind turbine!
+{{< /game_item >}}
+
+{{< game_item
+    title = "Sneeze Volcano"
+    image = "/images/sneezevolcano.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
+    androidBadge = "/images/google-play.png"
+ >}}
+Sneeze a Volcano to shoot down the UFOs with Lava. Don't hit the planes!
 {{< /game_item >}}
 
 {{< game_item
@@ -31,7 +38,6 @@ Inflate a Penguin to Power a battery with a wind turbine!
     image = "/images/asuraattack2.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack2"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
  >}}
 Defend against waves of Asuras in this strategic merge rpg game inspired by Hindu mythology. Merge weapons, manage resources, and deploy turrets to protect the sacred lands.
 {{< /game_item >}}
@@ -41,7 +47,6 @@ Defend against waves of Asuras in this strategic merge rpg game inspired by Hind
     image = "/images/foodsoldiers.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.foodsoldiers"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
  >}}
 Defend your land from quirky food-themed adversaries! Merge gears, power up your turrets, and strategize against hotdog samurai and dumpling wrestlers in this frantic puzzle defense game.
 {{< /game_item >}}
@@ -52,8 +57,6 @@ Defend your land from quirky food-themed adversaries! Merge gears, power up your
     alt = "The Counterfeit Bank Game Icon"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.counterfeitbank"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2023"
-    rating = "4"
     features = "Strategic gameplay, Multiple currencies, Upgrade system, Challenging levels"
  >}}
 Take over the country, one counterfeit note at a time.
@@ -74,8 +77,6 @@ Take over the country, one counterfeit note at a time.
     alt = "Asura Attack Game Icon"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
-    rating = "4"
     features = "Fast-paced action, Boss fights, Upgradeable abilities"
  >}}
 Unleash combos and fight mythic foes in this arcade action title.
@@ -87,8 +88,6 @@ Unleash combos and fight mythic foes in this arcade action title.
     alt = "Tea Garden Game Icon"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.teagarden"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
-    rating = "4"
     features = "Relaxing puzzles, Garden building, Tea recipes"
  >}}
 Grow your garden and brew the perfect cup in this cozy puzzler.
@@ -145,8 +144,6 @@ Tap, bombard, and upgrade! Destroy the alien ship before it powers up fully!
     alt = "Animal Chemistry Game Icon"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.animalchemistry"
     androidBadge = "/images/google-play.png"
-    releaseDate = "2025"
-    rating = "4"
     features = "Educational puzzles, Elemental combos, Cute animal characters"
  >}}
 Combine elements and learn chemistry with adorable animals in this educational puzzle game.
