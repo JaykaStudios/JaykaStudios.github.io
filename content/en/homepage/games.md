@@ -25,6 +25,15 @@ Inflate a Penguin to Power a battery with a wind turbine!
 {{< /game_item >}}
 
 {{< game_item
+    title = "Inflate Penguin 2"
+    image = "/images/inflatepenguin2.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin2"
+    androidBadge = "/images/google-play.png"
+ >}}
+Inflate a penguin to power a city!
+{{< /game_item >}}
+
+{{< game_item
     title = "Sneeze Volcano"
     image = "/images/sneezevolcano.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"

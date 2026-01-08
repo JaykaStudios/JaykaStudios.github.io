@@ -15,14 +15,18 @@ header_subheadline: "Quack a Revolution. Lead your blue duck army to victory!"
 
 # Carousel slides
 carousel_slides:
-  - image: "/images/quackrevolution.png"
-    headline: "Quack Revolution"
+  - image: "/images/inflatepenguin2.png"
+    headline: "Inflate Penguin 2"
     button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin2"
   - image: "/images/inflatepenguin.png"
     headline: "Inflate Penguin"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
+  - image: "/images/quackrevolution.png"
+    headline: "Quack Revolution"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
