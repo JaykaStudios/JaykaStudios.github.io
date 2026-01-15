@@ -10,11 +10,15 @@ header_use_video: false
 header_logo: "images/logo_256.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Quack Revolution"
-header_subheadline: "Quack a Revolution. Lead your blue duck army to victory!"
+header_headline: "Bounce Panda"
+header_subheadline: "Bounce a panda from a lift to launch a dog to space!"
 
 # Carousel slides
 carousel_slides:
+  - image: "/images/bouncepanda_icon.png"
+    headline: "Bounce Panda"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.bouncepanda"
   - image: "/images/inflatepenguin2.png"
     headline: "Inflate Penguin 2"
     button_text: "Play Now"
@@ -23,10 +27,6 @@ carousel_slides:
     headline: "Inflate Penguin"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
-  - image: "/images/quackrevolution.png"
-    headline: "Quack Revolution"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

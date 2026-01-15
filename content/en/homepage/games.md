@@ -7,6 +7,15 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Bounce Panda"
+    image = "/images/bouncepanda_icon.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.bouncepanda"
+    androidBadge = "/images/google-play.png"
+ >}}
+Bounce a panda from a lift to launch a dog to space!
+{{< /game_item >}}
+
+{{< game_item
     title = "Quack Revolution"
     image = "/images/quackrevolution.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
