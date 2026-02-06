@@ -1,10 +1,12 @@
 <header class="site-header">
   <nav class="navbar">
     <div class="nav-brand">
-      <picture>
-        <source srcset="/images/jaykastudios-logo-wide_1024.webp" type="image/webp">
-        <img src="/images/jaykastudios-logo-wide_1024.png" alt="Logo">
-      </picture>
+      <a href="{{ relURL "/" }}">
+        <picture>
+          <source srcset="/images/jaykastudios-logo-wide_1024.webp" type="image/webp">
+          <img src="/images/jaykastudios-logo-wide_1024.png" alt="Logo">
+        </picture>
+      </a>
     </div>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
@@ -13,10 +15,10 @@
       <span></span>
     </label>
     <ul class="nav-menu">
-      <li><a href="#featured">Home</a></li>
-      <li><a href="#our-games">Games</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#featured">Home</a></li>
+      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#our-games">Games</a></li>
+      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#about">About</a></li>
+      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#contact">Contact</a></li>
     </ul>
   </nav>
 </header>

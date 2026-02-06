@@ -50,6 +50,10 @@ The collected information is used for the following purposes:
 - Send you promotional materials
 - Administer promotional activities or events
 
+### Lawful Basis for Processing
+
+For users in India we process digital personal data on the basis of the user’s consent and to perform our contract with you (for paid services). For users in the EU/UK we rely on one or more lawful bases including: (i) your consent (which you may withdraw), (ii) processing necessary to perform our contract with you, (iii) our legitimate interests (for analytics, fraud prevention and product improvement), and (iv) compliance with legal obligations.
+
 ### Sharing of Data
 
 We may share your information with:
@@ -62,13 +66,17 @@ We may share your information with:
 
 We do not sell or share personal information about persons that we know are under the age of 16 without their (or depending on age, their parent's) consent.
 
+### Children and Minors
+
+Children and minors. Our Services are not intended for children under 16. We do not knowingly collect personal data from children under 16 without verifiable parental consent. If you believe a child has provided us with personal data, contact us at support@jaykastudios.com and we will promptly delete it.
+
 ### Data Retention
 
-We'll keep your information for as long as necessary to provide you with the Services, fulfil our legal obligations, and/or exercise, defend or establish our rights.
+The security of your personal information is of utmost importance to us. We retain your information for as long as necessary to provide you with the Services, fulfil our legal obligations, and/or exercise, defend or establish our rights.
 
 ### User Rights
 
-You have the right to request deletion of your data. To do so, please contact us at support@jaykastudios.com.
+Your rights. Subject to law, you have the right to access, correct, delete, restrict or object to processing of your personal data, withdraw consent, and obtain a copy of personal data in a portable format. To exercise these rights email support@jaykastudios.com with “Privacy Request” in the subject.
 
 ### Data Security
 
