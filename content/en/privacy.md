@@ -8,7 +8,7 @@ We use your data to provide and improve the Service. By using the Service, you a
 
 # Privacy Policy for Jayka Studios
 
-*Last Update: 22/11/2024*
+*Last Update: 06/02/2026*
 
 Jayka Studios ("we", "us", "our") values your privacy. This Privacy Policy outlines how we collect, use, store, and protect your data when you interact with our games and services. By using our services, you agree to the terms of this Privacy Policy.
 
