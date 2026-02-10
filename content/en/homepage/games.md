@@ -7,6 +7,15 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Yati"
+    image = "/images/yati.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.yati"
+    androidBadge = "/images/google-play.png"
+ >}}
+yati is a welness game that creates a mind-body connection through avatar embodiment. It aims to uplift users while remaining highly engaging, encouraging them to return regularly and build sustainable wellness habits.
+{{< /game_item >}}
+
+{{< game_item
     title = "Bounce Panda"
     image = "/images/bouncepanda_icon.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.bouncepanda"

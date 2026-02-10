@@ -10,23 +10,15 @@ header_use_video: false
 header_logo: "images/logo_256.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Bounce Panda"
-header_subheadline: "Bounce a panda from a lift to launch a dog to space!"
+header_headline: "Yati"
+header_subheadline: "A welness game that creates a mind-body connection through avatar embodiment."
 
 # Carousel slides
 carousel_slides:
-  - image: "/images/bouncepanda_icon.png"
-    headline: "Bounce Panda"
+  - image: "/images/yati.png"
+    headline: "Yati"
     button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.bouncepanda"
-  - image: "/images/inflatepenguin2.png"
-    headline: "Inflate Penguin 2"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin2"
-  - image: "/images/inflatepenguin.png"
-    headline: "Inflate Penguin"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.yati"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
