@@ -10,13 +10,13 @@ header_use_video: false
 header_logo: "images/logo_256.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Yati"
+header_headline: "Yati - Play your way to health"
 header_subheadline: "A welness game that creates a mind-body connection through avatar embodiment."
 
 # Carousel slides
 carousel_slides:
   - image: "/images/yati.png"
-    headline: "Yati"
+    headline: "Yati - Play your way to health"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.yati"
 
