@@ -15,6 +15,14 @@ header_subheadline: "A welness game that creates a mind-body connection through 
 
 # Carousel slides
 carousel_slides:
+  - image: "/images/cardcore.png"
+    headline: "CardCore"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.cards"
+  - image: "/images/inflatepenguin.png"
+    headline: "Inflate Penguin"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
   - image: "/images/yati.png"
     headline: "Yati - Play your way to health"
     button_text: "Play Now"

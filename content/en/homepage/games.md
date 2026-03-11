@@ -7,6 +7,15 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "CardCore"
+    image = "/images/cardcore.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.cards"
+    androidBadge = "/images/google-play.png"
+ >}}
+CardCore is an infinitely replayable, skill-driven solo card game.
+{{< /game_item >}}
+
+{{< game_item
     title = "Yati - Play your way to health"
     image = "/images/yati.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.yati"
