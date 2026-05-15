@@ -52,15 +52,6 @@ Inflate a penguin to power a city!
 {{< /game_item >}}
 
 {{< game_item
-    title = "Sneeze Volcano"
-    image = "/images/sneezevolcano.png"
-    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.sneezevolcano"
-    androidBadge = "/images/google-play.png"
- >}}
-Sneeze a Volcano to shoot down the UFOs with Lava. Don't hit the planes!
-{{< /game_item >}}
-
-{{< game_item
     title = "Asura Attack 2"
     image = "/images/asuraattack2.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.asuraattack2"
@@ -154,15 +145,6 @@ Strategically place tiles to match colors on the grid without leaving any gap
     androidBadge = "/images/google-play.png"
  >}}
 Slide rows and columns to align blocks by color. Solve fast before time runs out.
-{{< /game_item >}}
-
-{{< game_item
-    title = "Impact Offense"
-    image = "/images/impactoffenst_icon.png"
-    androidLink = "https://play.google.com/store/apps/details?id=com.jks.Pentagon.Base.Defense.Impact"
-    androidBadge = "/images/google-play.png"
- >}}
-Tap, bombard, and upgrade! Destroy the alien ship before it powers up fully!
 {{< /game_item >}}
 
 {{< game_item
