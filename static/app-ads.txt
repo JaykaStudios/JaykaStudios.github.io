@@ -22,6 +22,13 @@ sharethrough.com, 6qlnf8sy, RESELLER, d53b998a7bd4ecd2
 lijit.com, 491737, RESELLER, fafdf38b16bf6b2b
 video.unrulymedia.com, 755432070, RESELLER
 rubiconproject.com, 22134, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 17062, RESELLER, 0bfd66d529a55807
+openx.com, 537153564, RESELLER, 6a698e2ec38604c6
+themediagrid.com, GODNC4, RESELLER, 35d5010d7789b49d
+triplelift.com, 95054, RESELLER, 6c33edb13117fd86
+undertone.com, 4108, RESELLER
+pubmatic.com, 160318, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 22412, RESELLER, 0bfd66d529a55807
 freewheel.tv, 741650, RESELLER
 triplelift.com, 12158, RESELLER, 6c33edb13117fd86
 pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
