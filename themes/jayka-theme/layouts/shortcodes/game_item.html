@@ -1,7 +1,4 @@
 {{ $unused := .Inner }}
-{{ if .Get "androidLink" }}
-<a href="{{ .Get "androidLink" }}" target="_blank" class="game-item-link">
-{{ end }}
 <div class="game-item">
   <div class="game-image">
     <picture>
@@ -11,13 +8,12 @@
     <div class="game-content">
       <h3>{{ .Get "title" }}</h3>
     </div>
-    <div class="game-overlay">
-      <div class="download-button">
-        <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="google-play-badge">
-      </div>
-    </div>
   </div>
+  {{ if .Get "androidLink" }}
+  <div class="game-download">
+    <a href="{{ .Get "androidLink" }}" target="_blank" rel="noopener" class="game-download-link" aria-label="Download {{ .Get "title" }} on Google Play">
+      <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="google-play-badge">
+    </a>
+  </div>
+  {{ end }}
 </div>
-{{ if .Get "androidLink" }}
-</a>
-{{ end }}

@@ -726,24 +726,22 @@ p {
 .game-item-link {
   text-decoration: none;
   display: block;
-  transition: all 0.3s ease;
+  color: inherit;
 }
 
 .game-item-link:hover {
-  transform: translateY(-5px);
+  text-decoration: none;
 }
 
 .game-item {
   position: relative;
   width: 300px;
-  height: 300px;
   margin: 1rem; /* reduce surrounding margin */
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   transition: transform var(--transition-slow), box-shadow var(--transition-slow);
   background: var(--text-light);
-  cursor: pointer;
   border: 2px solid transparent;
 }
 
@@ -756,7 +754,7 @@ p {
 .game-image {
   position: relative;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
 }
 
@@ -771,28 +769,15 @@ p {
   transform: scale(1.1);
 }
 
-.game-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 3;
-}
-
-.game-item:hover .game-overlay {
-  opacity: 1;
-}
-
-.download-button {
+.game-download {
+  padding: 0.8rem 1rem 1rem;
   text-align: center;
-  color: white;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.02));
+}
+
+.game-download-link {
+  display: inline-block;
+  line-height: 0;
 }
 
 .google-play-badge {
@@ -801,10 +786,6 @@ p {
   transition: transform 0.2s ease;
   display: inline-block;
   vertical-align: middle;
-}
-
-.game-overlay .google-play-badge {
-  width: 140px;
 }
 
 .google-play-badge:hover {
@@ -876,10 +857,6 @@ p {
   transition: all 0.3s;
 }
 
-.game-item:hover .game-content {
-  opacity: 0;
-}
-
 .game-content h3 {
   font-family: 'Cherry Bomb One', cursive;
   font-size: 1.4rem;
@@ -890,11 +867,6 @@ p {
   text-align: center;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-
-.game-item:hover .game-content h3 {
-  transform: scale(1.1);
-  font-size: 1.6rem;
 }
 
 .game-content p {
@@ -1229,7 +1201,6 @@ p {
 
   .game-item {
     width: 100%;
-    height: 240px;
     margin: 0.75rem 0;
   }
 
@@ -1239,10 +1210,6 @@ p {
 
   .game-content h3 {
     font-size: 1.05rem;
-  }
-
-  .game-item:hover .game-content h3 {
-    font-size: 1.15rem;
   }
 
   .download-text {
@@ -1272,10 +1239,6 @@ p {
 
   .game-content h3 {
     font-size: 1rem;
-  }
-
-  .game-item:hover .game-content h3 {
-    font-size: 1.2rem;
   }
 
   .download-text {
