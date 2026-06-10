@@ -4,6 +4,7 @@ facebook.com, 1098123245782119, DIRECT, c3e20eee3f780d68
 appodeal.com, 251977, DIRECT
 bidmachine.io, 251977, DIRECT 
 videoheroes.tv, 212428, RESELLER, 064bc410192443d8
+vungle.com, 677b6e68dedcad00113d99af, DIRECT, c107d686becd2d77
 pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
 pubmatic.com, 162588, RESELLER, 5d62403b186f2ace
 pubnative.net, 1006955, RESELLER, d641df8625486a7b
