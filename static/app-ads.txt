@@ -68,6 +68,8 @@ triplelift.com, 12908, RESELLER, 6c33edb13117fd86
 video.unrulymedia.com, 2464975885, RESELLER
 admanmedia.com, 2153, RESELLER
 appads.in, 106246, RESELLER
+pangleglobal.com, 5025949, DIRECT
+pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
 pubmatic.com, 164119, RESELLER, 5d62403b186f2ace
 tradplusad.com, b3fca24bd11c1242, RESELLER
 lijit.com, 483304, RESELLER, fafdf38b16bf6b2b
