@@ -15,6 +15,10 @@ header_subheadline: "A welness game that creates a mind-body connection through 
 
 # Carousel slides
 carousel_slides:
+  - image: "/images/penguinforeblower.png"
+    headline: "Penguin Fireblower"
+    button_text: "Play Now"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.penguinfireblower"
   - image: "/images/inflatepenguin.png"
     headline: "Inflate Penguin"
     button_text: "Play Now"
@@ -23,10 +27,6 @@ carousel_slides:
     headline: "Inflate Penguin 2"
     button_text: "Play Now"
     button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin2"
-  - image: "/images/quackrevolution.png"
-    headline: "Quack Revolution"
-    button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.quackrevolution"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

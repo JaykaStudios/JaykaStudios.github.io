@@ -7,6 +7,14 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Penguin Fireblower"
+    image = "/images/penguinforeblower.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.penguinfireblower"
+    androidBadge = "/images/google-play.png"
+ >}}
+{{< /game_item >}}
+
+{{< game_item
     title = "Red Rocket Penguin and Friends"
     image = "/images/redrocket.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.cards"
