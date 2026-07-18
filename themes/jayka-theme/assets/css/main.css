@@ -24,6 +24,12 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
 body {
   font-family: 'Funnel Sans', sans-serif;
   line-height: 1.6;
@@ -245,6 +251,7 @@ h1, h2, h3, h4 {
 
 .hero__artwork-img {
   width: 100%;
+  height: auto;
   max-width: 320px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -252,9 +259,16 @@ h1, h2, h3, h4 {
   box-shadow: var(--shadow-hero);
 }
 
+.hero__artwork a {
+  display: inline-block;
+  flex-shrink: 0;
+}
+
 .hero__badge {
   height: 48px;
   width: auto;
+  max-width: 100%;
+  display: block;
   transition: transform var(--transition-fast);
 }
 
@@ -495,6 +509,7 @@ h1, h2, h3, h4 {
 
 .contact-item p,
 .contact-item a {
+  margin: 0;
   color: inherit;
   opacity: 0.85;
   font-size: 0.9rem;
@@ -615,6 +630,8 @@ h1, h2, h3, h4 {
     transform: translateX(100%);
     transition: transform var(--transition-base);
     z-index: 1000;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   .nav-menu a {
@@ -631,6 +648,8 @@ h1, h2, h3, h4 {
 
   .nav-toggle:checked ~ .nav-menu {
     transform: translateX(0);
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .nav-toggle:checked ~ .hamburger span {
