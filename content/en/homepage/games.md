@@ -7,6 +7,14 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Inflate Penguin"
+    image = "/images/inflatepenguin.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
+    androidBadge = "/images/google-play.png"
+ >}}
+{{< /game_item >}}
+
+{{< game_item
     title = "Wobbly Heist"
     image = "/images/wobblyheist.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.wobblyheist"
@@ -58,14 +66,6 @@ header_menu: true
     title = "Yati - Play your way to health"
     image = "/images/yati.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.yati"
-    androidBadge = "/images/google-play.png"
- >}}
-{{< /game_item >}}
-
-{{< game_item
-    title = "Inflate Penguin"
-    image = "/images/inflatepenguin.png"
-    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin"
     androidBadge = "/images/google-play.png"
  >}}
 {{< /game_item >}}
