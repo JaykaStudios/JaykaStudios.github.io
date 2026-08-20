@@ -1,16 +1,22 @@
 {{ $unused := .Inner }}
-<div class="game-item">
-  <div class="game-image">
-    <img src="{{ .Get "image" }}" alt="{{ .Get "alt" | default "Game Icon" }}">
-    <div class="game-content">
-      <h3>{{ .Get "title" }}</h3>
-    </div>
+{{ $link := .Get "androidLink" }}
+{{ $title := .Get "title" }}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default (printf "%s game icon" $title) }}
+{{ if $link }}
+<a href="{{ $link }}" target="_blank" rel="noopener" class="game-card" aria-label="Play {{ $title }} on Google Play">
+{{ else }}
+<div class="game-card">
+{{ end }}
+  <img src="{{ $image }}" alt="{{ $alt }}" loading="lazy" width="512" height="512">
+  <div class="game-card__overlay">
+    <h3 class="game-card__title">{{ $title }}</h3>
+    {{ if $link }}
+    <span class="game-card__action">Play on Google Play</span>
+    {{ end }}
   </div>
-  {{ if .Get "androidLink" }}
-  <div class="game-download">
-    <a href="{{ .Get "androidLink" }}" target="_blank" rel="noopener" class="game-download-link" aria-label="Download {{ .Get "title" }} on Google Play">
-      <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="google-play-badge">
-    </a>
-  </div>
-  {{ end }}
+{{ if $link }}
+</a>
+{{ else }}
 </div>
+{{ end }}

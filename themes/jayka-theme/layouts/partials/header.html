@@ -4,7 +4,7 @@
       <a href="{{ relURL "/" }}">
         <picture>
           <source srcset="/images/jaykastudios-logo-wide_1024.webp" type="image/webp">
-          <img src="/images/jaykastudios-logo-wide_1024.png" alt="Logo">
+          <img src="/images/jaykastudios-logo-wide_1024.png" alt="Jayka Studios" width="200" height="40">
         </picture>
       </a>
     </div>
@@ -15,7 +15,7 @@
       <span></span>
     </label>
     <ul class="nav-menu">
-      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#featured">Home</a></li>
+      <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#hero">Home</a></li>
       <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#our-games">Games</a></li>
       <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#about">About</a></li>
       <li><a href="{{ if not .IsHome }}{{ relURL "/" }}{{ end }}#contact">Contact</a></li>

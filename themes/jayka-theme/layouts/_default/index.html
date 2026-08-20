@@ -1,57 +1,45 @@
 {{ define "main" }}
 
-<!-- Featured Games Slider (replaces hero) -->
-{{ if .Params.carousel_slides }}
-<section id="featured" class="featured-section">
-  <div class="container">
-    <h2>Featured Games</h2>
-    <div class="featured-slider">
-      <button class="slider-prev" aria-label="Previous">‹</button>
-      <div class="slider-track">
-        {{ range $index, $slide := .Params.carousel_slides }}
-        <div class="featured-card" data-index="{{ $index }}">
-          <div class="featured-image">
-            <picture>
-              <!-- <source srcset="{{ $slide.image | replaceRE ".png" ".webp" }}" type="image/webp"> -->
-              <img src="{{ $slide.image }}" alt="{{ $slide.headline }}" loading="eager" decoding="async" {{ if eq $index
-                0 }}fetchpriority="high" {{ end }}>
-            </picture>
-          </div>
-          <div class="featured-body">
-            <h3 class="featured-title">{{ $slide.headline }}</h3>
-            {{ if $slide.button_link }}
-            <a href="{{ $slide.button_link }}" {{ if in $slide.button_link "http"
-              }}target="_blank" {{ end }}>
-              <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="google-play-badge">
-            </a>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-      </div>
-      <button class="slider-next" aria-label="Next">›</button>
-      <div class="slider-dots"></div>
+{{ $homepage := .Site.GetPage "/homepage" }}
+
+<!-- Hero -->
+<section id="hero" class="hero-section">
+  <div class="hero__shape hero__shape--1" aria-hidden="true"></div>
+  <div class="hero__shape hero__shape--2" aria-hidden="true"></div>
+  <div class="hero__shape hero__shape--3 hero__shape--star" aria-hidden="true"></div>
+  <div class="hero__shape hero__shape--4" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <div class="hero__text reveal">
+      <h1 class="hero__headline">Strange ideas.<br><span>Solid gameplay.</span></h1>
+      <p class="hero__subtitle">Play our collection of quirky, original mobile games</p>
+      <a href="#our-games" class="hero__cta">Explore our games</a>
+    </div>
+    <div class="hero__artwork reveal reveal--delay-1">
+      <img src="/images/inflatepenguin.png" alt="Inflate Penguin" width="320" height="320" fetchpriority="high" class="hero__artwork-img" decoding="async">
+      <a href="https://play.google.com/store/apps/details?id=com.jaykastudios.inflatepenguin" target="_blank" rel="noopener" aria-label="Get Inflate Penguin on Google Play">
+        <img src="/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="hero__badge">
+      </a>
     </div>
   </div>
 </section>
-{{ end }}
 
-{{ $homepage := .Site.GetPage "/homepage" }}
+<!-- Content sections -->
 {{ if $homepage }}
 {{ range $homepage.Resources.ByType "page" }}
 {{ if and (ne .Title "Press") (ne .Title "Team") }}
-<section id="{{ anchorize .Title }}" class="section">
+<section id="{{ anchorize .Title }}" class="section{{ if eq .Title "Contact" }} section--dark{{ end }}{{ if eq .Title "Our Games" }} section--warm{{ end }}">
   <div class="container">
-    <h2>{{ .Title }}</h2>
-    <div class="content">
-      {{ if eq .Title "Our Games" }}
-      <div class="game-grid">
-        {{ .Content | safeHTML }}
-      </div>
-      {{ else }}
+    <h2 class="reveal">{{ .Title }}</h2>
+    {{ if eq .Title "Our Games" }}
+    <p class="section__intro reveal reveal--delay-1">Every game starts with a strange idea. Here&rsquo;s what we&rsquo;ve built so far.</p>
+    <div class="game-grid">
       {{ .Content | safeHTML }}
-      {{ end }}
     </div>
+    {{ else }}
+    <div class="content reveal reveal--delay-1">
+      {{ .Content | safeHTML }}
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

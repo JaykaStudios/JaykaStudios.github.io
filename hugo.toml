@@ -22,7 +22,7 @@ title = "Jayka Studios"
 enableEmoji = true
 
 [markup.goldmark.renderHooks.image]
-   enableDefault = true
+   useEmbedded = "fallback"
 
 [[module.mounts]]
    source = 'assets'
@@ -140,5 +140,5 @@ enableEmoji = true
 [languages]
   [languages.en]
     weight = 10
-    languageName = "English"
+    label = "English"
     contentDir = "content/en"
