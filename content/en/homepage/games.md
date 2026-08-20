@@ -7,6 +7,14 @@ header_menu: true
 ---
 
 {{< game_item
+    title = "Wobbly Heist"
+    image = "/images/wobblyheist.png"
+    androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.wobblyheist"
+    androidBadge = "/images/google-play.png"
+ >}}
+{{< /game_item >}}
+
+{{< game_item
     title = "Penguin Fireblower"
     image = "/images/penguinforeblower.png"
     androidLink = "https://play.google.com/store/apps/details?id=com.jaykastudios.penguinfireblower"

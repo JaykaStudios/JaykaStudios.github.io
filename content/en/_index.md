@@ -15,10 +15,10 @@ header_subheadline: "A welness game that creates a mind-body connection through 
 
 # Carousel slides
 carousel_slides:
-  - image: "/images/penguinforeblower.png"
-    headline: "Penguin Fireblower"
+  - image: "/images/wobblyheist.png"
+    headline: "Wobbly Heist"
     button_text: "Play Now"
-    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.penguinfireblower"
+    button_link: "https://play.google.com/store/apps/details?id=com.jaykastudios.wobblyheist"
   - image: "/images/inflatepenguin.png"
     headline: "Inflate Penguin"
     button_text: "Play Now"
