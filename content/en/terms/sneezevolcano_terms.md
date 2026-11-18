@@ -5,7 +5,7 @@ title: "Sneeze Volcano — Terms & Conditions"
 **Effective Date:** November 18, 2026  
 **Last Updated:** November 18, 2026
 
-Welcome to **Sneeze Volcano**, a mobile app developed and operated by **Jayka Studios LLP** ("we", "us", or "our"). By downloading, accessing, or using the app, you agree to these Terms. If you do not agree, please do not use the app.
+Welcome to **Sneeze Volcano**, a mobile app developed and operated by **Jayka Studios LLP** ("we", "us", or "our"). By downloading, accessing, or using the app, you agree to these Terms. If you do not agree, please do not use the game.
 
 ---
 
